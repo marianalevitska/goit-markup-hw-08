@@ -1,0 +1,54 @@
+:root {
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --mail-text-color: rgba(255, 255, 255, 0.6);
+  --social-icon-color: rgba(255, 255, 255, 0.1);
+  --first-button-color: #f5f4fa;
+  --second-button-color: #2196f3;
+  --accent-color: #2196f3;
+  --bg-color: #2f303a;
+  --bg-color-2: #f5f4fa;
+  --social-icon-color: rgba(255, 255, 255, 0.1);
+  --icon-first-color: #afb1b8;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}

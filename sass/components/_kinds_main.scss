@@ -1,0 +1,19 @@
+.main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.kinds__photo {
+  display: flex;
+  justify-content: space-between;
+}
+.kinds__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.kinds-list {
+  display: flex;
+}
