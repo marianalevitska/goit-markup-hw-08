@@ -276,6 +276,13 @@ h1 {
   padding-bottom: 200px;
 }
 
+@media screen and (min-width: 1200px) {
+  .products__img {
+    width: 370px;
+    height: 294px;
+  }
+}
+
 .products {
   padding-bottom: 94px;
 }
