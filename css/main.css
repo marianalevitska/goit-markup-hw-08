@@ -177,17 +177,29 @@ body {
 }
 
 .points {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .points {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
+  }
 }
 
 .points__section {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  margin-bottom: 94px;
+}
+
+@media screen and (min-width: 1200px) {
+  .points__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 
 .points-list__title {
@@ -214,18 +226,35 @@ body {
 }
 
 .symbols-list {
-  display: flex;
   margin-bottom: 30px;
 }
 
-.symbols-list__item {
-  width: 270px;
-  height: 120px;
-  margin-right: 30px;
+@media screen and (min-width: 768px) {
+  .symbols-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
-.symbols-list__item:last-child {
-  margin-right: 0;
+@media screen and (min-width: 1200px) {
+  .symbols-list {
+    display: flex;
+  }
+}
+
+.symbols-list__item {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .symbols-list__item {
+    width: 270px;
+    height: 120px;
+    margin-right: 30px;
+  }
+  .symbols-list__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .symbols-list__link {
