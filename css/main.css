@@ -280,8 +280,28 @@ h1 {
   padding-bottom: 94px;
 }
 
-.products-list {
-  display: flex;
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .products {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .products-list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products-list {
+    display: flex;
+  }
 }
 
 .products-list__item {
