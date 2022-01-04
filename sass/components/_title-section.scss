@@ -1,26 +1,43 @@
 h1 {
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+  }
+  font-size: 26px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
   color: var(--third-text-color);
-  width: 696px;
-  height: 120px;
-  left: 452px;
+  width: 360px;
+  height: 84px;
+  left: 60px;
 }
 .main-title__section {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 .main-title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   @media screen and (min-width: 1px) and (max-width: 767px) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {

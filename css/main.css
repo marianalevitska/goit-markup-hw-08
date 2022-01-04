@@ -227,6 +227,13 @@ body {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .symbols__under {
+    width: calc(100% / 2 - 30px 0);
+    width: 354px;
+  }
+}
+
 .symbols-list {
   margin-right: 0;
   margin-bottom: 30px;
@@ -252,7 +259,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .symbols-list__item {
-    width: calc(100% / 2 - 30px);
+    width: calc(100% / 2 - 30px 0);
     margin-right: 30px;
     margin-bottom: 30px;
   }
@@ -330,23 +337,43 @@ body {
 }
 
 h1 {
+  font-size: 26px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
   color: var(--third-text-color);
-  width: 696px;
-  height: 120px;
-  left: 452px;
+  width: 360px;
+  height: 84px;
+  left: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+  }
 }
 
 .main-title__section {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-title__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 
 .main-title {
@@ -359,6 +386,9 @@ h1 {
 
 @media screen and (min-width: 1px) and (max-width: 767px) {
   .main-title {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-img-mobile-1x.jpg);
   }
 }
@@ -1244,12 +1274,20 @@ button:focus {
   margin-top: 40px;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  left: 140px;
+  top: 292px;
+  align-self: center;
   border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-title__btn {
+    left: 700px;
+    top: 430px;
+  }
 }
 
 button:active, button:hover {
