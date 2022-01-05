@@ -14,10 +14,11 @@ h1 {
   text-align: center;
   color: var(--third-text-color);
   width: 360px;
-  height: 84px;
-  left: 60px;
+  // height: 84px;
+  // left: 60px;
 }
 .main-title__section {
+  padding: 118px 60px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -85,12 +86,12 @@ h1 {
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/bg-img.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   // background-image: linear-gradient(
   //     rgba(47, 48, 58, 0.4),
   //     rgba(47, 48, 58, 0.4)
   //   ),
   //   url(../images/bg-img-mobile-1x.jpg);
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
