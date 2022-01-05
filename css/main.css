@@ -180,6 +180,15 @@
   fill: black;
 }
 
+.mob-menu {
+  position: fixed;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 5;
+}
+
 :root {
   --first-text-color: #212121;
   --second-text-color: #757575;
