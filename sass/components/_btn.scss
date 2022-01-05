@@ -1,10 +1,19 @@
 // main index btn
 .open-menu-btn {
-  background-color: none;
+  border: none;
+  background-color: transparent;
   margin-left: auto;
   @media screen and (min-width: 768px) {
     display: none;
   }
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+}
+.open-menu-btn:hover .open-menu-btn__icon,
+.open-menu-btn:focus .open-menu-btn__icon {
+  fill: var(--accent-color);
 }
 .main-title__btn {
   @media screen and (min-width: 1200px) {

@@ -176,6 +176,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.open-menu-btn__icon {
+  fill: black;
+}
+
 :root {
   --first-text-color: #212121;
   --second-text-color: #757575;
@@ -1327,7 +1331,8 @@ button:focus {
 }
 
 .open-menu-btn {
-  background-color: none;
+  border: none;
+  background-color: transparent;
   margin-left: auto;
 }
 
@@ -1335,6 +1340,15 @@ button:focus {
   .open-menu-btn {
     display: none;
   }
+}
+
+.open-menu-btn:hover, .open-menu-btn:focus {
+  background-color: transparent;
+}
+
+.open-menu-btn:hover .open-menu-btn__icon,
+.open-menu-btn:focus .open-menu-btn__icon {
+  fill: var(--accent-color);
 }
 
 .main-title__btn {
