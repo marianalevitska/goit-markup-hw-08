@@ -1195,8 +1195,8 @@ h1 {
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: #fff;
   border-radius: 4px;
   position: absolute;
@@ -1205,6 +1205,13 @@ h1 {
   transform: scale(1) translate(-50%, -50%);
   transition: transform 200ms;
   padding: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal__close-btn {
@@ -1312,9 +1319,15 @@ h1 {
 }
 
 .modal-form__field__check-text {
-  font-size: 14px;
+  font-size: 12px;
   color: #757575;
   display: flex;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form__field__check-text {
+    font-size: 14px;
+  }
 }
 
 .modal-form__field__check-text::before {
@@ -1538,8 +1551,8 @@ button:active, button:hover {
 
 .modal-form__field__submit-btn {
   position: absolute;
-  top: 491px;
-  left: 164px;
+  top: 519px;
+  left: 125px;
   background-color: var(--accent-color);
   border-radius: 4px;
   font-family: Roboto, sans-serif;
@@ -1551,6 +1564,13 @@ button:active, button:hover {
   width: 200px;
   height: 50px;
   border: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form__field__submit-btn {
+    top: 491px;
+    left: 164px;
+  }
 }
 
 .modal-form__field__submit-btn:hover {

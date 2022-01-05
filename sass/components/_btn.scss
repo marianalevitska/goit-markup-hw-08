@@ -75,8 +75,12 @@ button {
 
 .modal-form__field__submit-btn {
   position: absolute;
-  top: 491px;
-  left: 164px;
+  @media screen and (min-width: 1200px) {
+    top: 491px;
+    left: 164px;
+  }
+  top: 519px;
+  left: 125px;
   background-color: var(--accent-color);
   border-radius: 4px;
   font-family: Roboto, sans-serif;

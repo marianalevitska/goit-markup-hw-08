@@ -12,8 +12,12 @@
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
+  width: 450px;
+  height: 609px;
   background-color: #fff;
   border-radius: 4px;
   position: absolute;
@@ -125,7 +129,10 @@
     }
   }
   &-form__field__check-text {
-    font-size: 14px;
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+    }
+    font-size: 12px;
     color: #757575;
     display: flex;
 
