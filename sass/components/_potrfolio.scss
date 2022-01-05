@@ -13,6 +13,17 @@
   @media screen and (min-width: 1200px) {
     margin: 0 13px 28px 13px;
     flex-basis: calc(100% / 3 - 30px);
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-of-type(3n + 1) {
+      margin-left: 0;
+    }
+
+    &:nth-last-of-type(-n + 3) {
+      margin-bottom: 0;
+    }
   }
   width: 100%;
 
@@ -27,17 +38,6 @@
 
   &:hover .photo-list__item__top {
     transform: translateY(0);
-  }
-  &:nth-of-type(3n) {
-    margin-right: 0;
-  }
-
-  &:nth-of-type(3n + 1) {
-    margin-left: 0;
-  }
-
-  &:nth-last-of-type(-n + 3) {
-    margin-bottom: 0;
   }
 }
 
@@ -95,7 +95,7 @@ button:focus {
     height: 294px;
   }
   @media screen and (min-width: 1200px) {
-    width: 294px;
-    height: 262px;
+    width: 370px;
+    height: 294px;
   }
 }
