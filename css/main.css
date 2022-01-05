@@ -189,6 +189,12 @@
   z-index: 5;
 }
 
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
 :root {
   --first-text-color: #212121;
   --second-text-color: #757575;
@@ -1357,6 +1363,29 @@ button:focus {
 
 .open-menu-btn:hover .open-menu-btn__icon,
 .open-menu-btn:focus .open-menu-btn__icon {
+  fill: var(--accent-color);
+}
+
+.mob-menu__btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mob-menu__btn:hover, .mob-menu__btn:focus {
+  background-color: #fff;
+}
+
+.mob-menu__btn:hover .mob-menu__btn__icon,
+.mob-menu__btn:focus .mob-menu__btn__icon {
   fill: var(--accent-color);
 }
 
