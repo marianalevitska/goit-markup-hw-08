@@ -69,13 +69,35 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header__connect {
     display: flex;
-    margin-left: 84px;
+    margin-left: 80px;
     flex-direction: column;
   }
 }
 
-.header__contacts:nth-of-type(1) {
-  margin-right: 50px;
+@media screen and (min-width: 768px) {
+  .header__contacts:nth-of-type(1) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__contacts:nth-of-type(1) {
+    margin-right: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -198,16 +220,19 @@
   }
 }
 
+.mob-menu .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .mob-menu-social__icon {
   fill: #000;
 }
 
 .mob-menu-list__item {
   margin-bottom: 32px;
-}
-
-.mob-menu-list__item:last-child {
-  margin-bottom: 302px;
 }
 
 .mob-menu-list__link {
@@ -228,6 +253,61 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.mob-menu__contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: calc(40 / 34);
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  margin-bottom: 32px;
+}
+
+.mob-menu__contacts-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-bottom: 64px;
+}
+
+.mob-social {
+  display: flex;
+}
+
+.mob-menu-social-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.mob-menu-social__item {
+  margin-right: 20px;
+}
+
+.mob-menu-social__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.line {
+  display: flex;
+  align-self: center;
+  width: 22px;
+  height: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
 }
 
 :root {
