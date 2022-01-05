@@ -25,6 +25,20 @@
       margin-bottom: 0;
     }
   }
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+    &:nth-last-of-type(1) {
+      margin-bottom: 30px;
+    }
+    &:nth-last-of-type(9) {
+      margin-bottom: 0;
+    }
+  }
   width: 100%;
 
   border: 1px solid #ececec;
@@ -38,6 +52,10 @@
 
   &:hover .photo-list__item__top {
     transform: translateY(0);
+  }
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -69,7 +87,14 @@ button:focus {
 
 .photo-list__text {
   padding: 20px 24px 20px 24px;
-  width: 370px;
+  width: 450px;
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+  }
 }
 
 .photo-list__title {
