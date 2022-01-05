@@ -1069,7 +1069,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer__adress {
     display: flex;
     align-items: center;
@@ -1094,7 +1094,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer-social {
     display: flex;
     margin-bottom: 60px;
@@ -1148,7 +1148,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer-contact-list {
     display: flex;
     align-items: center;
@@ -1167,7 +1167,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .item {
     margin-top: 8px;
   }
@@ -1214,7 +1214,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer__social {
     display: flex;
     align-items: center;
@@ -1232,7 +1232,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer__subscribe {
     display: flex;
     align-items: center;
@@ -1247,7 +1247,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .subscribe-form {
     display: flex;
     align-items: center;
@@ -1274,7 +1274,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .subscribe-form__input {
     width: 450px;
   }
@@ -1740,7 +1740,7 @@ button:active, button:hover {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .subscribe-form__btn {
     margin-top: 20px;
   }
