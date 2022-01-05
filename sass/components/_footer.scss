@@ -170,10 +170,16 @@
 }
 
 .subscribe-form__input {
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
+  @media screen and (min-width: 1px) and (max-width: 767px) {
+    width: 450px;
+  }
   display: flex;
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
-  width: 358px;
+
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;

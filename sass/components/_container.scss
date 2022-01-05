@@ -14,13 +14,31 @@
     width: 1200px;
   }
   &-1 {
-    width: 500px;
+    @media screen and (min-width: 480px) {
+      width: 262px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 320px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 500px;
+    }
+    // width: 500px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
   }
   &-2 {
-    width: 570px;
+    @media screen and (min-width: 480px) {
+      width: 249px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 364.8px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 570px;
+    }
+    // width: 570px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
