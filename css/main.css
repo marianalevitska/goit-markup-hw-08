@@ -1500,26 +1500,38 @@ textarea {
 
 .kinds__section {
   display: flex;
-  flex-wrap: wrap;
-}
-
-@media screen and (min-width: 768px) {
-  .kinds__section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .kinds-list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .kinds-list {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1px) and (max-width: 767px) {
   .kinds-list__item {
     flex-basis: calc(100% / 3 - 30px);
+    margin-right: 8px;
+    margin-bottom: 15px;
+  }
+  .kinds-list__item .kinds-list__item:nth-of-type(3) {
+    margin-right: 0;
+  }
+  .kinds-list__item .kinds-list__item:nth-of-type(5) {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .kinds-list__item .kinds-list__item:nth-of-type(4) {
+    margin-bottom: 0;
   }
 }
 
