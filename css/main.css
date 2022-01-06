@@ -1503,7 +1503,19 @@ textarea {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .kinds__section {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .kinds__section {
+    margin-bottom: 50px;
+  }
 }
 
 .kinds-list {
@@ -1519,7 +1531,6 @@ textarea {
 
 @media screen and (min-width: 1px) and (max-width: 767px) {
   .kinds-list__item {
-    flex-basis: calc(100% / 3 - 30px);
     margin-right: 8px;
     margin-bottom: 15px;
   }
