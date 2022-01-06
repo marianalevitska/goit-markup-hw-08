@@ -1500,14 +1500,27 @@ textarea {
 
 .kinds__section {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .kinds__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 }
 
 .kinds-list {
   display: flex;
+}
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  .kinds-list__item {
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 
 @media screen and (min-width: 1px) and (max-width: 1199px) {
