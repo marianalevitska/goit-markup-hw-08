@@ -1548,8 +1548,8 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .photo-list__item {
-    flex-basis: calc(100% / 2 - 20px);
-    margin-right: 20px;
+    flex-basis: calc(100% / 2 - 25px);
+    margin-right: 25px;
     margin-bottom: 30px;
   }
   .photo-list__item:nth-of-type(2n) {
