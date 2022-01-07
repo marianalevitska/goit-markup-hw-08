@@ -1047,7 +1047,7 @@ h1 {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-top {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     flex-direction: row;
   }
