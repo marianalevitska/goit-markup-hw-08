@@ -39,7 +39,10 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-direction: column;
+      margin-right: 70px;
+      padding-right: 0;
     }
+
     @media screen and (min-width: 1px) and (max-width: 1199px) {
       display: flex;
       align-items: center;
@@ -103,9 +106,11 @@
     margin-right: 0;
   }
 }
-.address {
-  margin-right: 40px;
-}
+
+// .address {
+//   margin-right: 40px;
+//   padding-right: 0;
+// }
 .logo-span--color-light {
   color: var(--third-text-color);
 }

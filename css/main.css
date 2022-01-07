@@ -1069,6 +1069,8 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    margin-right: 70px;
+    padding-right: 0;
   }
 }
 
@@ -1138,10 +1140,6 @@ h1 {
 
 .footer-social__item:last-child {
   margin-right: 0;
-}
-
-.address {
-  margin-right: 40px;
 }
 
 .logo-span--color-light {
@@ -1879,51 +1877,57 @@ button:active, button:hover {
   }
 }
 
-.container-1 {
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .container-1 {
     width: 262px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container-1 {
     width: 320px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container-1 {
     width: 500px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-}
-
-.container-2 {
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 480px) {
   .container-2 {
     width: 249px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container-2 {
     width: 364.8px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container-2 {
     width: 570px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
