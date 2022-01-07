@@ -39,6 +39,7 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-direction: column;
+      margin-right: 40px;
     }
     @media screen and (min-width: 1px) and (max-width: 1199px) {
       display: flex;
@@ -185,6 +186,8 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    margin-right: 0;
+    margin-left: 63px;
   }
   @media screen and (min-width: 1px) and (max-width: 1199px) {
     display: flex;
@@ -196,6 +199,8 @@
 .subscribe-form {
   @media screen and (min-width: 1200px) {
     display: flex;
+    // margin-right: 0;
+    // margin-left: 63px;
   }
   @media screen and (min-width: 1px) and (max-width: 1199px) {
     display: flex;

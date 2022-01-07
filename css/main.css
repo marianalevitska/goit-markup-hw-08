@@ -1069,6 +1069,7 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    margin-right: 40px;
   }
 }
 
@@ -1232,6 +1233,8 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    margin-right: 0;
+    margin-left: 63px;
   }
 }
 
