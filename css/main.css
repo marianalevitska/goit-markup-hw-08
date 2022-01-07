@@ -376,7 +376,6 @@ body {
   .points {
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-bottom: 94px;
   }
 }
 
@@ -386,6 +385,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    padding-bottom: 70px;
   }
 }
 
@@ -428,6 +428,9 @@ body {
 @media screen and (min-width: 1200px) {
   .symbols__under {
     width: 270px;
+    margin-top: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
