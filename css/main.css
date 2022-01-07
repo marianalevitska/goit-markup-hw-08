@@ -436,7 +436,7 @@ body {
 
 .symbols-list {
   margin-right: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {

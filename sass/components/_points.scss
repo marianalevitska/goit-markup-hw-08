@@ -84,6 +84,7 @@
 }
 .symbols-list {
   margin-right: 0;
+  margin-bottom: 0;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +96,6 @@
     flex-wrap: nowrap;
     margin-bottom: 30px;
   }
-  margin-bottom: 30px;
 }
 
 .symbols-list__item {
