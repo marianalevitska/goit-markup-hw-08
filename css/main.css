@@ -1579,6 +1579,8 @@ textarea {
 }
 
 .photo-list__item {
+  width: 450px;
+  height: 404px;
   width: 100%;
   border: 1px solid #ececec;
   transition: background-color 200ms linear, box-shadow 200ms linear;
@@ -1586,8 +1588,23 @@ textarea {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .photo-list__item {
+    width: 353px;
+    height: 440px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .photo-list__item {
+    width: 370px;
+    height: 404px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo-list__item {
+    border: 1px solid #ececec;
     margin: 0 13px 28px 13px;
     flex-basis: calc(100% / 3 - 30px);
   }
@@ -1604,8 +1621,9 @@ textarea {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .photo-list__item {
-    flex-basis: calc(100% / 2 - 25px);
-    margin-right: 26px;
+    border: 0.5px solid #ececec;
+    flex-basis: calc(100% / 2 - 30px);
+    margin-right: 30px;
     margin-bottom: 30px;
   }
   .photo-list__item:nth-of-type(2n) {
@@ -1697,7 +1715,7 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .portfolio-img {
-    width: 354px;
+    width: 353px;
     height: 294px;
   }
 }
