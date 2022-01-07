@@ -18,7 +18,7 @@ h1 {
   // left: 60px;
 }
 .main-title__section {
-  padding: 118px 60px 118px 60px;
+  // padding: 118px 60px 118px 60px;
   // padding-right: 60px;
   width: 100%;
   display: flex;
@@ -55,6 +55,8 @@ h1 {
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/bg-img-mobile-1x.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 
   @media screen and (min-width: 768px) {
@@ -72,6 +74,8 @@ h1 {
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/bg-img-tablet-1x.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
   @media screen and (min-width: 1200px) {
     @media (min-device-pixel-ratio: 2),
@@ -89,7 +93,7 @@ h1 {
       ),
       url(../images/bg-img.jpg);
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
   }
   // background-image: linear-gradient(
   //     rgba(47, 48, 58, 0.4),
