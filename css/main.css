@@ -1528,22 +1528,10 @@ textarea {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 40px;
-}
-
-@media screen and (min-width: 768px) {
-  .kinds__section {
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .kinds__section {
-    margin-bottom: 50px;
-  }
 }
 
 .kinds-list {
+  margin-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1551,6 +1539,13 @@ textarea {
 @media screen and (min-width: 768px) {
   .kinds-list {
     display: flex;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .kinds-list {
+    margin-bottom: 50px;
   }
 }
 
@@ -1610,7 +1605,7 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .photo-list__item {
     flex-basis: calc(100% / 2 - 25px);
-    margin-right: 25px;
+    margin-right: 26px;
     margin-bottom: 30px;
   }
   .photo-list__item:nth-of-type(2n) {
@@ -1954,7 +1949,6 @@ button:active, button:hover {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 480px) {

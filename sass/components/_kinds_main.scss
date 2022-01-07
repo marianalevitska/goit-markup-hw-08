@@ -11,19 +11,17 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.kinds-list {
   @media screen and (min-width: 768px) {
+    display: flex;
     margin-bottom: 30px;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
   }
   margin-bottom: 40px;
-}
-
-.kinds-list {
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
   display: flex;
   flex-wrap: wrap;
 }
