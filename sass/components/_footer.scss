@@ -39,7 +39,6 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-direction: column;
-      margin-right: 40px;
     }
     @media screen and (min-width: 1px) and (max-width: 1199px) {
       display: flex;
@@ -103,6 +102,9 @@
   &-social__item:last-child {
     margin-right: 0;
   }
+}
+.address {
+  margin-right: 40px;
 }
 .logo-span--color-light {
   color: var(--third-text-color);
