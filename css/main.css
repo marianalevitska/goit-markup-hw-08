@@ -451,6 +451,7 @@ body {
   .symbols-list {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 30px;
   }
 }
 
