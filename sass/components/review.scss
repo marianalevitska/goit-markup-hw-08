@@ -24,7 +24,12 @@
   padding: 43px 66px 26px 57px;
   margin-bottom: 30px;
 }
-
+.review__section::after {
+  content: "/images/icons.svg#icon-reviews-dots";
+  position: absolute;
+  width: 32px;
+  height: 4px;
+}
 .review__section__text {
   //   border: 1px solid #e1e1e1;
   text-decoration: solid underline #e1e1e1 1px;
